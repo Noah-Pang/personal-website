@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Rock+Salt&display=swap");
+@import url("https://appfolio.github.io/bootstrap-coastline/bootstrap-coastline.css");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+.capstone-custom-filter-options {
+    flex: 1;
+    flex-direction: row;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.capstone-custom-navbar-brand-name {
+  font-size: 20px;
+  text-align: left;
+}
+
+.capstone-custom-home-page-icons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 1;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.capstone-custom-jumbotron-text {
+  text-align: center;
+  padding-top: 12px;
+  font-weight: bold;
+}
+
+.capstone-custom-grid-wrapper {
+  align-content: center;
+  display: flex;
+  grid-gap: auto;
+  margin: 50px auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.capstone-custom-jumbo-header {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 55px;
+}
+.capstone-custom-jumbo-intro {
+  text-align: center;
+  font-size: 20px;
+}
+.capstone-custom-intro-col-desc {
+  text-align: center;
+}
+
+.capstone-custom-location-select {
+  flex: 3;
+  padding-right: 8px;
+}
+
+.capstone-custom-submit-location-button {
+  flex: 1;
+}
+
+.capstone-custom-center-loader {
+  flex: 1;
+}
+
+.capstone-custom-select-and-search {
+  position: relative;
+  top: 60%;
+  width: 30%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.capstone-custom-home-container {
+  margin: 15% auto auto auto;
+  width: 50%;
+  height: 80px;
+}
+.capstone-custom-select-and-search-home {
+  position: absolute;
+  align-self: center;
+  height: auto;
+  width: 60%;
+  top: 55%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.capstone-custom-home-tagline {
+  font-family: "TruliaSans", Trulia-Fallback, sans-serif;
+  font-size: 53px;
+  line-height: 80px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  letter-spacing: -2.9px;
+  top: 33%;
+  position: relative;
+}
+
+.capstone-custom-listings-card {
+  height: 28rem;
+  margin: 1%;
+  align-items: center;
+  justify-content: center;
+  max-height: 600px;
+}
+
+.capstone-custom-paginate-bar {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.capstone-custom-listings-card-image {
+  background-color: darkslategrey !important;
+  overflow: hidden;
+  height: 100%;
+  max-height: 180px;
+  width: 100%;
+  max-width: 100vw;
+}
+
+.capstone-custom-href-listing-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.capstone-custom-error-message-login {
+  font-size: x-large;
+  text-align: center;
+  color: crimson;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.capstone-custom-loading {
+  font-size: x-large;
+  text-align: center;
+  color: deepskyblue;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.capstone-custom-error_image {
+  margin-left: 25%;
+  flex: 1;
+  width: 50%;
+  height: 50%;
+}
+
+.capstone-custom-button-margin {
+  margin: 10px;
+}
+.capstone-custom-map-container {
+  flex: 1;
+}
+
+.capstone-custom-split {
+  display: flex;
+  flex-direction: row;
+}
+
+.capstone-custom-split-child {
+  flex: 1;
+}
+
+.capstone-custom-right-arrow {
+  width: 100px;
+  margin-left: 8%;
+}
+.capstone-custom-city-selector-text {
+  margin-left: -50px;
+}
+.capstone-custom-home-text {
+  font-family: "Rock Salt", cursive;
+  font-size: 40px;
+}
+
+.capstone-custom-select-search-container {
+  display: flex;
+  justify-content: center;
+}
+
+.capstone-custom-search-me-container {
+  display: flex;
+  justify-content: center;
+}
+
+.capstone-custom-up-arrow {
+  width: 144px;
+}
+
+.capstone-custom-search-text {
+  align-self: flex-end;
+  margin-right: 8%;
+}
+.capstone-custom-flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.capstone-custom-flex-container > .capstone-custom-flex-item-ending {
+  align-self: center;
+}
+
+.capstone-custom-flex-container > .capstone-custom-flex-item-start-address {
+  align-self: center;
+  width: 120px;
+}
+
+.capstone-custom-flex-container > .capstone-custom-flex-item-image {
+  align-self: center;
+}
+
+.capstone-custom-flex-container > .capstone-custom-flex-item-price {
+  align-self: center;
+}
+
+.capstone-custom-sortable-list {
+}
+
+.capstone-custom-map-icon:hover {
+  cursor: pointer;
+}
+
+.ui.icon.button.toggle.active {
+  background: red !important;
+}
+
+.capstone-custom-table-container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+td {
+  vertical-align: middle !important;
+}
+
+.capstone-custom-submit-email-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.capstone-custom-email-input-form {
+  width: 77%;
+}
+
+.capstone-custom-create-group-container {
+  margin: 5% auto auto auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.capstone-custom-create-group-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.capstone-custom-create-group-header {
+  color: black;
+  font-size: 70px;
+}
+
+.capstone-custom-create-group-text {
+  text-align: center;
+}
+
+.capstone-custom-create-group-subheader-container {
+  width: 60%;
+  align-self: center;
+  margin-bottom: 15px;
+}
+.capstone-custom-create-group-subheader {
+  color: black;
+  font-size: 18px;
+}
+
+.bookmark-split-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.single-listing-display-container {
+  width: 70%;
+  margin: auto;
+}
+
+.bookmarked-header-text {
+  text-align: center;
+  margin-top: 20px !important;
+}
+
+.capstone-custom-fa-pets-red-ban {
+  color: #ff0000;
+}
+
+.capstone-custom-fa-green-check-mark {
+  color: #00ff00;
+}
+
+.profile-container {
+  margin: 5% auto auto auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-phone-number-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profile-name-email-container {
+  margin: 20px 0px 20px 0px;
+}
+
+.profile-phone-number {
+  margin-right: 15px;
+}
+
+#profile-picture {
+  width: 200;
+  height: 200;
+  border-radius: 200/ 2;
+}
+
+.horizontal-scroll {
+  position: relative;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  height: 500px;
+  width: 1000px;
+}
+
+.bookmarked-carousel-container {
+  margin: auto;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.capstone-custom-dynamic-page-header {
+  display: flex;
+  align-self: center;
+  align-content: center;
+}
+
+.capstone-custom-dynamic-left {
+  padding-top: 35px;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.capstone-custome-dynamic-image {
+  height: 85%;
+  padding: 10px;
+  border-color: black;
+  align-self: center;
+  align-content: center;
+}
+
+.capstone-custom-dynamic-page-address {
+  font-size: x-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.capstone-custom-dynamic-text {
+  text-align: center;
+  font-size: large;
+}
+
+.url-like-share-container{
+  display: flex;
+  justify-content: center;
+}
+.like-share-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+}
+.listing-url-container{
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.capstone-custom-dropdown{
+  flex-direction: column;
+  text-align: center;
+}
