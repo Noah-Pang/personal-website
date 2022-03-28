@@ -1,7 +1,7 @@
 {
-  "name": "Noah-Pang.github.io",
+  "name": "personal-website",
   "version": "0.1.0",
-  "homepage": "https://Noah-Pang.github.io/Noah-Pang.github.io",
+  "homepage": "https://Noah-Pang.github.io/personal-website",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
