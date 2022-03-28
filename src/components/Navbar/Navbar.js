@@ -5,7 +5,7 @@ const AppNavbar = () => {
     return(
         <>
             <Nav>
-                <NavLink to="/">
+                <NavLink to="/personal-website">
                     <h1>Noah Pang</h1>
                 </NavLink>
                 <Bars />
