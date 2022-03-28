@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Noah-Pang.github.io/static/css/main.919ddfa7.css",
+    "main.js": "/Noah-Pang.github.io/static/js/main.e0e98d1c.js",
+    "static/js/787.e6580697.chunk.js": "/Noah-Pang.github.io/static/js/787.e6580697.chunk.js",
+    "pdf.worker.js": "/Noah-Pang.github.io/e7e915313973ba1d49f9bb2a1998626e.js",
+    "static/media/profile.jpg": "/Noah-Pang.github.io/static/media/profile.75ca1b9b853c32d96307.jpg",
+    "static/media/yuxiang-research.png": "/Noah-Pang.github.io/static/media/yuxiang-research.cc67beef0a840620e681.png",
+    "index.html": "/Noah-Pang.github.io/index.html",
+    "main.919ddfa7.css.map": "/Noah-Pang.github.io/static/css/main.919ddfa7.css.map",
+    "main.e0e98d1c.js.map": "/Noah-Pang.github.io/static/js/main.e0e98d1c.js.map",
+    "787.e6580697.chunk.js.map": "/Noah-Pang.github.io/static/js/787.e6580697.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.919ddfa7.css",
+    "static/js/main.e0e98d1c.js"
+  ]
+}
