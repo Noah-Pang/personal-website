@@ -1,16 +1,23 @@
 import React from "react";
+import profile from "../images/profile.jpg";
 
 const About = () => {
   return (
     <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "90vh",
-      }}
+      className="about"
     >
-      <h1>About</h1>
+        <div className="sidebar">
+        <img className="about-profile-picture" src={profile} alt="Profle" />
+            <div className="sidebar-name">
+               Noah Pang
+            </div>
+            <div className="sidebar-text">
+                Other
+            </div>
+        </div>
+        <div className="content">
+            About
+        </div>
     </div>
   );
 };

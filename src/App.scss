@@ -6,6 +6,10 @@
   margin: 0;
   padding: 0;
 }
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 .profile-pic-media-container {
   display: flex;
@@ -109,4 +113,57 @@
   &:hover {
     transform: scale(1.02);
   }
+}
+
+.project-page-wrapper {
+  margin: 2% 3% 2% 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-desc {
+  display: flex;
+  font-size: large;
+  text-indent: 3%;
+}
+
+.project-title {
+  margin: 2% 2% 2% 2%;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 60rem;
+    background-color: #f2f3f7;
+    border: #d50000;
+    box-shadow: 0 2px 20px #e1e5ee;
+}
+
+.about-profile-picture{
+    border-radius: 50%;
+    margin: 15% 15% 5% 15%;
+}
+
+.sidebar-name{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0 0 5% 0;
+}
+
+.sidebar-text{
+    display: flex;
+    justify-content: center;
 }

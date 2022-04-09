@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import profile from "../../images/profile.jpg";
 import { Button, Card, Description, Image, Title } from "./CardElements.js";
+import { Link } from "react-router-dom";
 
 const AppCard = (props) => {
   return (
@@ -10,13 +11,13 @@ const AppCard = (props) => {
         <h2 className="card__title">{props.title}</h2>
         <p className="card__description">{props.desc}</p>
       </div>
-      <a
-        href={props.link}
+      <Link
+        to={props.link}
         className="card__btn"
         style={{ textDecoration: "none", textAlign: "center" }}
       >
         {props.button}
-      </a>
+      </Link>
     </div>
   );
 };
